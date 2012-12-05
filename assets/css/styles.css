@@ -76,7 +76,7 @@
 
 .answers li:hover {
 	background: #ff7800; /* Old browsers */
-	color: #ffffff;
+	color: #323232;
 }
 
 .main-quiz-holder  .slide-container ul.answers li.selected {
@@ -222,6 +222,13 @@
 .main-quiz-holder .nav-start {
 	display: block;
 	margin: 40px auto 0 auto;
+	width: 200px;
+	height: 35px;
+}
+
+#gambar{
+background: url (../img/gambar.jpg);
+margin: 40px auto 0 auto;
 }
 
 .main-quiz-holder .nav-container {

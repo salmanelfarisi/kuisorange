@@ -45,7 +45,7 @@ var name = "Adek";
 		
 		var superContainer = $(this),
             answers = [],
-            introFob = '<'+show_prompt()+'><div class="intro-container slide-container"><h3 style="text-align:center">Petunjuk Kuis</h3><p style="text-align:center">1. Pilih salah satu dari lima pilihan jawaban yang disediakan</p><p style="text-align:center">2. Klik tombol "next" untuk melanjutkan ke soal selanjutnya</p><p style="text-align:center">3. Klik tombol "prev" untuk kembali ke soal yang sebelumnya</p><p style="text-align:center">4. Klik tombol "finish" untuk mengakhiri dan melihat hasil kuis</p><a class="tombol nav-start" href="#" style="color:#ffffff;">Mulai</a></div>	',
+            introFob = '<'+show_prompt()+'><div class="intro-container slide-container"><h3 style="text-align:center"></h3><p style="text-align:center"></p><p style="text-align:center"></p><p style="text-align:center"></p><p style="text-align:center"></p><div class="gambar"></div><a class="tombol nav-start" href="#" style="color:#ffffff;">START QUIZ</a></div>	',
             exitFob = '<div class="results-container slide-container"><div class="question-number">' + config.endText + '</div><div class="result-keeper"></div></div><div class="notice alert alert-error"><h4>Silahkan pilih jawaban terlebih dahulu!</h4></div><div class="progress-keeper" ><div class="progress"></div></div>';
 		
 		
@@ -231,7 +231,7 @@ var name = "Adek";
             score = roundReloaded(trueCount / questionLength * 100, 2);
            
 
-            resultSet = '<h2 class="qTitle">' + judgeSkills(score) +'</h2>'+ '<h2 class="qTitle">' + 'Nilai Kamu'+ ' ' + score + '</h2>' + shareButton + resultSet +'<div class="jquizzy-clear"></div>'+'<div class="row" style="margin-top:50px;"><a href="../ahaQuize/index.html" class="tombol nav-start2" style="color:#ffffff">Kembali</a></div>';
+            resultSet = '<h2 class="qTitle">' + judgeSkills(score) +'</h2>'+ '<h2 class="qTitle">' + 'Nilai Kamu'+ ' ' + score + '</h2>' + shareButton + resultSet +'<div class="jquizzy-clear"></div>'+'<div class="row" style="margin-top:50px;"><a href="../imk/index.html" class="tombol nav-start2" style="color:#ffffff">Kembali</a></div>';
             superContainer.find('.result-keeper').html(resultSet).show(200);
             superContainer.find('.resultsview-qhover').hide();
             superContainer.find('.result-row').hover(function () {

@@ -35,6 +35,11 @@ body {
 .navbar-fixed-top .brand:hover {
   text-decoration: none;
 }
+.background {
+background-image: url(../img/bg.jpg);
+  /*background-position: 15px 5px;*/
+  background-repeat: repeat;
+}
 
 
 /* Space out sub-sections more

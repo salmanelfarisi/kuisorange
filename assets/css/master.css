@@ -136,7 +136,8 @@ hr {
   position: relative;
 }
 .grid {
-  background: url(../img/grid.png) #777777 50% 0%;
+  background: url(../img/bg.jpg) #777777 50% 0%;
+  background-repeat: repeat-y;
   /*padding: 32px 0;*/
 }
 hr {
